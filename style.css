@@ -1,0 +1,40 @@
+body {
+  font-family: "Avenir Next";
+}
+
+.header {
+  background-color: darkgray;
+  height: 90px;
+}
+.header-Name {
+  padding: 20px 40px;
+  font-size: 40px;
+  font-family: fantasy;
+  float: left;
+}
+
+.game {
+  list-style: none;
+  float: right;
+  padding: 33px 20px;
+}
+.syumi {
+  list-style: none;
+  float: right;
+  padding: 33px 20px;
+}
+.profile {
+  list-style: none;
+  float: right;
+  padding: 33px 20px;
+}
+
+.main {
+  background-color: floralwhite;
+  height: 600px;
+}
+
+.footer {
+  background-color: ghostwhite;
+  height: 270px;
+}
