@@ -6,27 +6,57 @@ body {
   background-color: darkgray;
   height: 90px;
 }
-.header-Name {
+.header-Tag {
   padding: 20px 40px;
   font-size: 40px;
-  font-family: fantasy;
+  font-family: cursive;
   float: left;
+}
+
+.myphoto {
+  padding: 10px;
+  width: 360px;
+  height: 420px;
+  float: right;
+  margin-right: 150px;
+  margin-top: 50px;
+  border-radius: 50px;
+  /*浮かぶ*/
+  transition: box-shadow 0.5s;
+}
+.myphoto:hover {
+  box-shadow: 0 12px 12px gray;
+  animation: fuwafuwa 2s infinite;
+}
+@keyframes fuwafuwa {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .game {
   list-style: none;
   float: right;
   padding: 33px 20px;
+  font-family: cursive;
 }
 .syumi {
   list-style: none;
   float: right;
   padding: 33px 20px;
+  font-family: cursive;
 }
 .profile {
   list-style: none;
   float: right;
   padding: 33px 20px;
+  font-family: cursive;
 }
 
 .main {
