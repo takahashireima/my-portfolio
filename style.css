@@ -6,20 +6,30 @@ body {
   background-color: darkgray;
   height: 90px;
 }
+.profile {
+  text-shadow: 0.01em 0.01em 0.09em black;
+}
+.syumi {
+  text-shadow: 0.01em 0.01em 0.09em black;
+}
+.game {
+  text-shadow: 0.01em 0.01em 0.09em black;
+}
 .header-Tag {
   padding: 20px 40px;
   font-size: 40px;
   font-family: cursive;
   float: left;
+  text-shadow: 0.01em 0.01em 0.09em black;
 }
 
 .myphoto {
-  padding: 10px;
-  width: 360px;
-  height: 420px;
+  padding: 5px;
+  width: 400px;
+  height: 460px;
   float: right;
-  margin-right: 150px;
-  margin-top: 50px;
+  margin-top: -325px;
+  margin-right: 200px;
   border-radius: 50px;
   /*浮かぶ*/
   transition: box-shadow 0.5s;
@@ -28,18 +38,9 @@ body {
   box-shadow: 0 12px 12px gray;
   animation: fuwafuwa 2s infinite;
 }
-@keyframes fuwafuwa {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.name {
+  padding-top: 70px;
 }
-
 .game {
   list-style: none;
   float: right;
@@ -63,8 +64,170 @@ body {
   background-color: floralwhite;
   height: 600px;
 }
+/*profile11の設定*/
+h3 {
+  margin: 40px 750px 0px 360px;
+  font-size: 25px;
+}
+.from {
+  margin: 40px 730px 0px 360px;
+  font-size: 25px;
+}
+.aboutme {
+  /*改善しないといけない。*/
+  /* padding-top: 50px;
+  padding-right: 200px; */
+  margin-left: 40px;
+  padding-right: 1263px;
+  padding-top: 50px;
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+/* .aboutme:hover {
+  font-size: 30px;
+  animation: mochimochi 1s infinite;
+} */
+.hobbyphoto {
+  transition: 1s;
+}
+.hobbyphoto:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.span1 {
+  color: red;
+  font-size: 35px;
+}
+
+h3:hover {
+  font-size: 30px;
+}
+
+.submain {
+  height: 380px;
+  background-color: floralwhite;
+}
+.succer {
+  padding-left: 220px;
+}
+.genre {
+  padding-left: 380px;
+}
+.channel {
+  padding-left: 290px;
+}
+
+.hobby {
+  margin-left: 40px;
+  padding-right: 1263px;
+  padding-top: 50px;
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+.hobby1 {
+  font-size: 25px;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+.hobby2 {
+  padding-left: 380px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
 
 .footer {
-  background-color: ghostwhite;
-  height: 270px;
+  background-color: floralwhite;
+  height: 750px;
+  margin-top: -40px;
+  padding-top: 70px;
+}
+.slidespan {
+  font-size: 35px;
+  color: red;
+}
+.footerh3 {
+  margin-left: 40px;
+  padding-right: 1263px;
+  padding-top: 100px;
+  border-bottom: 2px solid green;
+  display: inline-block;
+}
+.slide {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 360px;
+  margin: auto;
+  margin-top: 40px;
+  background: #fff;
+}
+.slide img {
+  display: block;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  left: 100%;
+  animation: slide-anime 15s ease infinite;
+}
+.slide img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+.slide img:nth-of-type(2) {
+  animation-delay: 3s;
+}
+.slide img:nth-of-type(3) {
+  animation-delay: 6s;
+}
+.slide img:nth-of-type(4) {
+  animation-delay: 9.2s;
+}
+.slide img:nth-of-type(5) {
+  animation-delay: 13s;
+}
+
+/*keyframes一覧*/
+@keyframes mochimochi {
+  0% {
+    transform: scale(1, 0.8);
+  }
+  20% {
+    transform: scale(0.8, 1.1);
+  }
+  90% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 0.9);
+  }
+}
+@keyframes fuwafuwa {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes slide-anime {
+  0% {
+    left: 100%;
+  }
+  2% {
+    left: 0;
+  }
+  18% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
 }

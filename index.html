@@ -9,20 +9,78 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="header">
-      <div id="NameTag" class="header-Tag">My Portfolio</div>
+    <div id="red">
+      <div class="header" id="black1">
+        <div id="NameTag" class="header-Tag">My Portfolio</div>
 
-      <div class="game">Game</div>
-      <div class="syumi">like</div>
-      <div class="profile">Profile</div>
+        <a class="game" href="#black4">写真</a>
+        <a class="syumi" href="#black3">趣味</a>
+        <a class="profile" href="#black2">自己紹介</a>
+      </div>
+
+      <div class="main" id="black2">
+        <h2 class="aboutme"><span class="span1">自</span>己紹介</h2>
+        <h3 id="Name" class="name">・名前:髙橋怜眞</h3>
+        <h3>・誕生日:10月2日</h3>
+        <h3 class="from">・出身地:栃木県佐野市</h3>
+        <h3>・大学:日本大学</h3>
+        <img src="./IMG_2678.png" class="myphoto" />
+      </div>
+
+      <div class="submain" id="black3">
+        <h1 class="hobby"><span class="span1">趣</span>味</h1>
+        <h4 class="hobby1">
+          サッカー<span class="hobby2"
+            >映画鑑賞 　　　　　　　　　　　　　　　YouTube</span
+          >
+        </h4>
+        <ul>
+          <li>
+            <img
+              src="OIP.jpg"
+              width="300"
+              height="200"
+              class="transition hobbyphoto"
+              id="hobbyphoto1"
+            />
+          </li>
+          <li>
+            <img
+              src="filmphoto.jpg"
+              width="300"
+              height="200"
+              class="transition hobbyphoto"
+              id="hobbyphoto2"
+            />
+          </li>
+          <li>
+            <img
+              src="youtubephoto.jpg"
+              width="300"
+              height="200"
+              class="transition hobbyphoto"
+              id="hobbyphoto3"
+            />
+          </li>
+        </ul>
+        <button id="OIP" class="succer">サッカー</button>
+        <button id="film" class="genre">好きなジャンルは...</button>
+        <button id="youtube" class="channel">
+          好きなYouTubeチャンネルは...
+        </button>
+      </div>
+
+      <div class="footer" id="black4">
+        <h2 class="footerh3"><span class="slidespan">写</span>真</h2>
+        <div class="slide">
+          <img src="photo1.jpg" />
+          <img src="photo2.jpg" />
+          <img src="photo3.jpg" />
+          <img src="photo4.jpg" />
+          <img src="photo5.jpg" />
+        </div>
+      </div>
     </div>
-
-    <div class="main">
-      <img src="./IMG_2678.png" class="myphoto" />
-      <h2>髙橋怜眞</h2>
-    </div>
-
-    <div class="footer"></div>
     <script src="main.js"></script>
   </body>
 </html>
