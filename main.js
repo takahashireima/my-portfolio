@@ -12,6 +12,7 @@ const film = document.getElementById("film");
 const youtube = document.getElementById("youtube");
 const genre = document.getElementById("genre");
 const channel = document.getElementById("channel");
+const saport = document.getElementById("saport");
 
 let flag = false;
 
@@ -37,6 +38,7 @@ film.onclick = function () {
     film.style.color = "red";
     youtube.style.color = "red";
     fontColor_change_red.style.color = "red";
+    saport.style.color = "red";
   } else {
     hobbyphoto_2.src = "filmphoto.jpg";
     film.textContent = "好きなジャンルは...";
@@ -48,6 +50,7 @@ film.onclick = function () {
     film.style.color = "black";
     youtube.style.color = "black";
     fontColor_change_red.style.color = "black";
+    saport.style.color = "black";
   }
 };
 
